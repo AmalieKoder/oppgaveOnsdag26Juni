@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(#797d62, #9b9b7a, #d9ae94, #f1dca7, #d08c60, #997b66);
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.catFactInfo {
+    border: 1px solid black;
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.catsFact {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.btn {
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+}
